@@ -1,25 +1,10 @@
-# SHATTERBOUND — Danny's Interactive Concept
+# Publishing SHATTERBOUND
 
-The bilingual English / Mexican Spanish interactive presentation lives in `index.html`.
+The tested presentation and all six original character images are ready in the repository root.
 
-## Before publishing
+1. Settings → General → Danger Zone → Change repository visibility → Public.
+2. Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
+3. Wait for the GitHub Pages deployment to complete.
+4. Open https://jkgraphix11.github.io/shatterbound-concept/ and verify navigation, both languages, both fighters, all six posters, abilities, and Join choices on iPhone Safari.
 
-Upload these six poster files to the **root** of this repository (next to `index.html`), preserving their exact names:
-
-- `jace_hero.webp`
-- `jace_action.webp`
-- `jace_close.webp`
-- `kai_hero.webp`
-- `kai_action.webp`
-- `kai_close.webp`
-
-These are included in the presentation ZIP provided in ChatGPT.
-
-## Publish
-
-1. Once the six images are uploaded, go to **Settings → General → Danger Zone → Change repository visibility** and make the repository **Public**.
-2. In **Settings → Pages**, select **Deploy from a branch**; choose **main** and **/(root)**. Save.
-3. Visit `https://jkgraphix11.github.io/shatterbound-concept/` once GitHub Pages reports the deployment is live.
-4. Test both language modes, each character's poster gallery, ability meter, and the 'Join' screen on iPhone.
-
-Note: Making the repository public reveals its source files and image assets to everyone. The presentation is concept material, not a playable game.
+`.nojekyll` keeps this a plain static site. All artwork uses relative paths so it works under the repository's Pages subdirectory.
